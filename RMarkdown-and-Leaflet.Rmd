@@ -3,9 +3,10 @@ title: "RMarkdown-and-Leaflet"
 author: "Fuyu"
 date: "October 15, 2020"
 output: 
-       github_document
-      
+  github_document:
+    html_preview: T
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -16,5 +17,5 @@ knitr::opts_chunk$set(echo = TRUE)
 This will show the map of Beijing
 
 ```{r cars}
-
+mtcars
 ```
