@@ -3,7 +3,7 @@ title: "RMarkdown-and-Leaflet"
 author: "Fuyu"
 date: "October 15, 2020"
 output: 
-      html_document
+       github_document
       
 ---
 
