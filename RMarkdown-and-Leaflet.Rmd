@@ -16,9 +16,5 @@ knitr::opts_chunk$set(echo = TRUE)
 This will show the map of Beijing
 
 ```{r cars}
-library(leaflet)
-my_map <- leaflet() %>% addTiles()
-my_map <- my_map %>% addMarkers(lat = 42.3601, lng = -71.0589)
-my_map
 
 ```
