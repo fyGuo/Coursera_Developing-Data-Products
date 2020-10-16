@@ -1,0 +1,23 @@
+---
+title: "RMarkdown-and-Leaflet"
+author: "Fuyu"
+date: "October 15, 2020"
+output: 
+  html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This will show the map of Beijing
+
+```{r}
+library(leaflet)
+my_map <- leaflet() %>% addTiles()
+my_map <- my_map %>% addMarkers(lat = 39.9042, lng = 116.4074)
+my_map
+```
