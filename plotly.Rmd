@@ -17,8 +17,16 @@ p <- plot_ly(mtcars, x = ~wt, y = ~mpg, mode = "markers"， type = "scatter")
 p
 ```
 
+<<<<<<< HEAD
 ## Thanks
 
+=======
+## 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 321c334cde5b42a2fcda4476ba87a11567489242
+>>>>>>> bd095b49ba1179239d8b597a0280ea2f9908258e
 ### Thanks
 
 
