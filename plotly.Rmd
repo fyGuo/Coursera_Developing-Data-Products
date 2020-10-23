@@ -1,0 +1,21 @@
+---
+title: "Plotly"
+author: "Fuyu"
+date: "October 23, 2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Plotly scatter for dataset mtcars
+
+```{r, echo=FALSE, message=FALSE}
+library(plotly)
+p <- plot_ly(mtcars, x = ~wt, y = ~mpg, mode = "markers"， type = "scatter")
+p
+```
+
+
+
